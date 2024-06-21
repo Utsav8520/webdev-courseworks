@@ -1,0 +1,35 @@
+
+
+<!ELEMENT movieDatabase (movie+, director+, actor+)>
+<!ELEMENT movie (title, genre, releaseYear, directorID, cast+, review*)>
+<!ELEMENT director (name, nationality)>
+<!ELEMENT actor (name, gender, birthDate)>
+<!ELEMENT review (author, rating, comment)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT releaseYear (#PCDATA)>
+<!ELEMENT directorID (#PCDATA)>
+<!ELEMENT cast (actorID+)>
+<!ELEMENT actorID (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT birthDate (#PCDATA)>
+
+<!ATTLIST movie
+    id ID #REQUIRED
+    duration CDATA #IMPLIED>
+
+<!ATTLIST director
+    id ID #REQUIRED>
+
+<!ATTLIST actor
+    id ID #REQUIRED>
+
+<!ATTLIST review
+    id ID #REQUIRED
+    date CDATA #IMPLIED>

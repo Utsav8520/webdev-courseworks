@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "movies.dtd">
+<movies>
+    <movie id="m001">
+        <title>Kagbeni</title>
+        <genre>Drama</genre>
+        <releaseYear>2008</releaseYear>
+        <directorID>d001</directorID>
+        <cast>
+            <actorID>a001</actorID>
+            <actorID>a002</actorID>
+        </cast>
+        <review id="r001">
+            <author>John Doe</author>
+            <rating>5</rating>
+            <comment>Amazing story</comment>
+        </review>
+    </movie>
+    <movie id="m002">
+        <title>Loot</title>
+        <genre>Action</genre>
+        <releaseYear>2012</releaseYear>
+        <directorID>d002</directorID>
+        <cast>
+            <actorID>a003</actorID>
+            <actorID>a004</actorID>
+        </cast>
+        <review id="r002">
+            <author>Jane Smith</author>
+            <rating>4</rating>
+            <comment>Highly suspenceful</comment>
+        </review>
+    </movie>
+    <director id="01u">
+        <name>Bhusan Dahal</name>
+    </director>
+    <director id="02u">
+        <name>Nischal Basnet</name>
+    </director>
+    <actor id="03u">
+        <name>Saugat Malla</name>
+    </actor>
+    <actor id="04u">
+        <name>Deeya Maskey</name>
+    </actor>
+    <actor id="05u">
+        <name>Karma</name>
+    </actor>
+    <actor id="06u">
+        <name>Dayahang Rai</name>
+    </actor>
+</movies>
